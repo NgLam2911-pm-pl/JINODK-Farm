@@ -1,0 +1,64 @@
+World-List:
+  - "SB"
+  - "world"
+  - "sb"
+  
+# Choose the mode for the world list, options are "Blacklist" & "Whitelist"
+List-Mode: "Whitelist"
+
+CobbleChance: 80000
+CoalBlock:
+  Enabled: true
+  Chance: 250
+
+IronBlock:
+  Enabled: true
+  Chance: 50
+
+GoldBlock:
+  Enabled: true
+  Chance: 10
+
+LapisBlock:
+  Enabled: true
+  Chance: 150
+
+RedstoneBlock:
+  Enabled: true
+  Chance: 1200
+
+EmeraldBlock:
+  Enabled: true
+  Chance: 4
+
+DiamondBlock:
+  Enabled: true
+  Chance: 1
+  
+CoalOre:
+  Enabled: true
+  Chance: 5040
+
+IronOre:
+  Enabled: true
+  Chance: 500
+
+GoldOre:
+  Enabled: true
+  Chance: 100
+
+LapisOre:
+  Enabled: true
+  Chance: 2500
+
+RedstoneOre:
+  Enabled: true
+  Chance: 10150
+
+EmeraldOre:
+  Enabled: true
+  Chance: 40
+
+DiamondOre:
+  Enabled: true
+  Chance: 5
