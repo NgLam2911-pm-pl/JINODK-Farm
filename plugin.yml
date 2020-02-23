@@ -1,7 +1,21 @@
----
-name: OreGen
-main: JINODK\OreGen\Main
-version: 0.1.2
-api: [3.0.0, 4.0.0]
+name: JINODK-Farm
+main: LamPocketVN\Farm\Farm
+version: 0.2.lpk
+api: [3.9.0, 4.0.0]
 authors: [JINODK, LamPocketVN]
-...
+depend: 
+- BlockStorage
+- EconomyAPI
+- PointAPI
+commands:
+    upgrade:
+        description: "Upgrade hàng rào"
+    viewtier:
+        description: "Xem tier của hàng rào"
+    givefence:
+        description: "Đưa hàng rào với tier xác định"
+premission:
+    farm.give:
+        description: "Give Fence"
+        default: op
+        
